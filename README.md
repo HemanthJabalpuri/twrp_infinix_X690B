@@ -1,19 +1,14 @@
-## TWRP for Infinix Zero 8 X687
+## TWRP for Infinix Note 7 X690
 
 ### Working
-- Decryption
-- MTP
-- fastbootd
-- USB OTG
+- Need tobtest
 
 ### Issues
-- loop mount errors with Android 11
-
+- Need to test
 
 ### Specifications
-- See https://m.gsmarena.com/infinix_zero_8-10401.php
+- See https://m.gsmarena.com/infinix_note_7-10175.php
 
 ### Credits
-- @mastersenpai05 for initial tree
-- @kusti420 for infinite testing
+- @mastersenpai05 for Infinix Zero 8 tree
 - @lopestom for **Blu G90 Pro** TWRP at [here](https://github.com/lopestom/device_TWRP-PBRP_BLU_G0370WW)
