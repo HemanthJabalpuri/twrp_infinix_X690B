@@ -11,9 +11,9 @@ on:
 env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
   MANIFEST_BRANCH: twrp-10.0
-  DEVICE: RMX2193
-  DT_LINK: https://github.com/HemanthJabalpuri/twrp_realme_RMX2193
-  DT_PATH: device/realme/RMX2193
+  DEVICE: X690
+  DT_LINK: https://github.com/HemanthJabalpuri/twrp_infinix_X690
+  DT_PATH: device/infinix/X690
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
