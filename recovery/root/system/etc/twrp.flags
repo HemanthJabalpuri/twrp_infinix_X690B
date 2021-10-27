@@ -27,5 +27,5 @@
 /proinfo         emmc      /dev/block/platform/bootdevice/by-name/proinfo     flags=backup
 
 # Removable storage
-/external_sd     auto      /dev/block/mmcblk0p1         /dev/block/mmcblk0
+/external_sd     auto      /dev/block/mmcblk1p1         /dev/block/mmcblk1
 /usb-otg         auto      /dev/block/sdd1              /dev/block/sdd        flags=storage;removable;wipeingui
