@@ -11,9 +11,9 @@ on:
 env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-11
-  DEVICE: X690
+  DEVICE: X690B
   DT_LINK: https://github.com/HemanthJabalpuri/twrp_infinix_X690
-  DT_PATH: device/infinix/X690
+  DT_PATH: device/infinix/X690B
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 

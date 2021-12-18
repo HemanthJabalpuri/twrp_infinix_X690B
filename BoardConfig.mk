@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/X690
+DEVICE_PATH := device/infinix/X690B
 
 # Architecture
 TARGET_ARCH := arm64
@@ -69,7 +69,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X690
+TARGET_OTA_ASSERT_DEVICE := Infinix-X690B
 
 # Partition
 BOARD_HAS_LARGE_FILESYSTEM := true

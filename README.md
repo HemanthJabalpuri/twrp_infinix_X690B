@@ -1,4 +1,4 @@
-## TWRP for Infinix Note 7 X690
+## TWRP for Infinix Note 7 X690B
 
 ### Working
 - Decryption

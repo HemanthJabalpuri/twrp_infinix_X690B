@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X690
-PRODUCT_NAME := twrp_X690
+PRODUCT_DEVICE := X690B
+PRODUCT_NAME := twrp_X690B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := X690
+PRODUCT_MODEL := X690B
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_SHIPPING_API_LEVEL := 29

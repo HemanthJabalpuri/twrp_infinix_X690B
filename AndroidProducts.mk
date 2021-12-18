@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_X690.mk
+    $(LOCAL_DIR)/twrp_X690B.mk
