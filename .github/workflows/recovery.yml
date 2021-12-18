@@ -9,8 +9,8 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
-  MANIFEST_BRANCH: twrp-10.0
+  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+  MANIFEST_BRANCH: twrp-11
   DEVICE: X690
   DT_LINK: https://github.com/HemanthJabalpuri/twrp_infinix_X690
   DT_PATH: device/infinix/X690
@@ -48,7 +48,7 @@ jobs:
 
     - name: Build
       run: |
-        cd work && export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch omni_$DEVICE-eng && mka $TARGET
+        cd work && export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch twrp_$DEVICE-eng && mka $TARGET
 
     - name: Upload recovery image
       run: |
