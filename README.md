@@ -7,7 +7,7 @@
 - USB OTG
 
 ### Issues
-- loop mount errors in Android 11 GSI
+- Let me know if you find anything
 
 ### Specifications
 - See https://m.gsmarena.com/infinix_note_7-10175.php
