@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+# Inherit from common AOSP config
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X690B
 PRODUCT_NAME := twrp_X690B
